@@ -4,3 +4,6 @@
 // prendo dal dom il riferimento al ul che conterra i li
 const contenitoreLista = document.getElementById("lista-della-spesa");
 
+// creo un array con gli alimenti da comprate
+const listaSpesa = ["pane", "pasta", "pomodoro", "mozzarella", "mele", "melanzane"];
+
