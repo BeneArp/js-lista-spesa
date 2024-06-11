@@ -38,7 +38,7 @@ h1{
 .card{
     width: 550px;
     height: 750px;
-    background: radial-gradient(circle, rgb(180, 168, 0) 10%, rgba(174,161,116,1) 80%);
+    background: radial-gradient(circle, rgb(206, 191, 137) 10%, rgba(174,161,116,1) 80%);
     border-radius: 30px;
     padding: 0.7em;
     text-align: center;
