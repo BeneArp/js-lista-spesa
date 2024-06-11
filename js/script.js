@@ -21,5 +21,8 @@ while(i < listaSpesa.length){
     // creo una variabile con l'html da inserie nella ul del dom
     let elementoLista = `<li>${alimentoLista}</li>`
 
+    // output in pagina
+    contenitoreLista.innerHTML += elementoLista;
+
     i++;
 }
