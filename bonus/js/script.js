@@ -8,7 +8,7 @@ const contenitoreLista = document.getElementById("lista-della-spesa");
 const listaSpesa = ["Formaggio di Finterra", "Pomodorini di Hyrule", "Grano di Colbacco", "Salgemma"];
 
 // array con immagine da associare con ingredienti
-const immaginiIngredienti = ["img/Item_Material-10.png", "img/Item_Fruit_M.png", "img/Item_Material-07.png", "img/Item_Ore_H.png" ]
+const immaginiIngredienti = ["img/Item_Material_10.png", "img/Item_Fruit_M.png", "img/Item_Material_07.png", "img/Item_Ore_H.png" ]
 
 
 
