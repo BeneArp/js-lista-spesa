@@ -11,21 +11,23 @@ const listaSpesa = ["Formaggio di Finterra", "Pomodorini di Hyrule", "Grano di C
 const immaginiIngredienti = ["img/Item_Material-10.png", "img/Item_Fruit_M.png", "img/Item_Material-07.png", "img/Item_Ore_H.png" ]
 
 
+
 // creo un ciclo while che legga tutti gli elementi dell'arrey e li stampi in pagina
 
 let i = 0;
+let j = 0;
 
-while(i < listaSpesa.length){
+while(i < listaSpesa.length && j < immaginiIngredienti.length){
 
     let alimentoLista = listaSpesa[i];
     // stampo in console tutto il contenuto dell'array
     console.log(alimentoLista);
 
-    // creo una variabile con l'html da inserie nella ul del dom
-    let elementoLista = `<li>${alimentoLista}</li>`
-
-    // output in pagina
-    contenitoreLista.innerHTML += elementoLista;
+    let immagineCorrente = immaginiIngredienti[i];
+    console.log(immagineCorrente);
 
     i++;
+    j++;
 }
+
+
