@@ -26,6 +26,12 @@ while(i < listaSpesa.length && j < immaginiIngredienti.length){
     let immagineCorrente = immaginiIngredienti[i];
     console.log(immagineCorrente);
 
+    // creo una variabile con l'html da inserie nella ul del dom
+    let elementoLista = `<li><img class= "icona" src="${immagineCorrente}" alt="">${alimentoLista}</li>`
+
+    // output in pagina
+    contenitoreLista.innerHTML += elementoLista;
+
     i++;
     j++;
 }
