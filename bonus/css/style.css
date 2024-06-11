@@ -1,0 +1,66 @@
+/* azzeramento parametri */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generali */
+
+body{
+    background-color: lightsteelblue;
+    font-family: 'Triforce', sans-serif;
+    color: rgb(75 63 4);
+}
+
+ul{
+    list-style: none;
+    font-size: 25px;
+    margin: 1.5em 2em 2.5em 4em;
+    text-align: left;
+}
+
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1{
+    margin-bottom: 0.8em;
+}
+
+/* main */
+.container{
+    padding: 17em 60em;
+}
+
+.card{
+    width: 550px;
+    height: 750px;
+    background: radial-gradient(circle, rgb(180, 168, 0) 10%, rgba(174,161,116,1) 80%);
+    border-radius: 30px;
+    padding: 0.7em;
+    text-align: center;
+
+}
+
+.card-border{
+    border: 3px solid rgb(128 116 64);
+    width: 530px;
+    height: 730px;
+}
+
+
+#piatto{
+    width: 70%;
+    margin: 1em  auto;
+}
+
+
+
+.icona{
+    height: 60px;
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
